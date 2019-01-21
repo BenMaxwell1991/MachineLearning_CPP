@@ -11,14 +11,16 @@ private:
 	double DeltaWeight;
 
 public:
+
+// ~~~~~~~~~~~~~~~ Getters & Setters ~~~~~~~~~~~~~~~
 	double weight();
 	double deltaWeight();
 	Neuron* connectedTo();
 
-
 	void setWeight(double value);
 	void setDeltaWeight(double value);
 	void setTarget(Neuron* value);
+// ~~~~~~~~~~~~~~~ Getters & Setters ~~~~~~~~~~~~~~~
 
 	Connection();
 	~Connection();
